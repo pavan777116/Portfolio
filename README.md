@@ -1,22 +1,27 @@
-# Interactive Resume Portfolio
+# ✉️ Interactive 3D Envelope Portfolio
 
-A modern, high-performance personal portfolio website featuring a unique 3D interactive envelope opening animation.
+A modern, high-performance personal portfolio featuring a unique "unboxing" user experience. Built with a focus on smooth animations and glassmorphism design.
 
-## 🚀 Features
-* **Interactive UX:** Users "uncover the journey" by clicking a floating 3D envelope.
-* **Glassmorphism Design:** Modern UI using backdrop filters and transparency.
-* **Smooth Animations:** Powered by GSAP (GreenSock Animation Platform) for high-frame-rate transitions.
-* **Typing Effect:** Dynamic name reveal using custom JavaScript.
-* **Responsive Particles:** A floating background particle system for visual depth.
+## 🔗 Live Demo
+[Click here to view my journey](https://pavan777116.github.io/Portfolio/)
 
-## 🛠️ Tech Stack
-* **Frontend:** HTML5, CSS3 (Custom properties & Flexbox)
-* **Animations:** [GSAP](https://greensock.com/gsap/)
-* **Typography:** Plus Jakarta Sans via Google Fonts
+## 🚀 Key Features
+* **Interactive 3D UX:** A custom-built envelope that reacts to mouse movement and opens on click.
+* **Glassmorphism UI:** Advanced CSS techniques including `backdrop-filter`, radial gradients, and 3D transforms.
+* **GSAP Animations:** High-performance timelines for the flap opening, seal disappearing, and resume pop-out.
+* **Dynamic Typing:** Real-time name reveal effect using custom JavaScript.
+* **Particle System:** Lightweight background particle engine for added visual depth.
 
-## 📸 Preview
-![Portfolio Screenshot](path-to-your-screenshot.jpg)
+## 🛠️ Built With
+* **HTML5 / CSS3:** Custom properties (Variables) and Flexbox.
+* **JavaScript (ES6):** Logic for interactions and DOM manipulation.
+* **GSAP:** GreenSock Animation Platform for the core 3D sequences.
+* **Google Fonts:** Plus Jakarta Sans for a modern tech aesthetic.
 
-## 🛠️ Setup
-1. Clone the repository: `git clone https://github.com/your-username/your-repo-name.git`
-2. Open `index.html` in any modern browser.
+## 📂 Project Structure
+* `index.html` - Semantic structure and external resource links.
+* `style.css` - Custom styling, glassmorphism effects, and glow logic.
+* `script.js` - Animation timelines, cursor tracking, and particle logic.
+
+---
+*Created by [Pavan Kalyan Mendu](https://github.com/pavan777116)*
