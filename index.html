@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavan Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+
+    <div class="cursor-glow" id="cursorGlow"></div>
+    <div class="particles" id="particles"></div>
+
+    <div class="container">
+        <div class="envelope-hint" id="envelopeHint">Click to uncover my journey</div>
+
+        <div class="envelope glass" id="envelope">
+            <div class="flap"></div>
+            <div class="seal"></div>
+        </div>
+
+        <div class="resume glass" id="resume">
+            <div class="close-btn" id="closeBtn">&times;</div>
+            <div class="scroll-container">
+                <img src="pic.jpeg" class="photo" alt="Profile">
+                <h1 class="glow-text" id="typingName"></h1> 
+                <p class="title">Java Developer | Python | DevOps</p>
+                
+                <div class="content-body">
+                    <p style="text-align: center; opacity: 0.8; line-height: 1.6;">Building scalable backend systems and automating cloud infrastructure with precision and elegance.</p>
+                </div>
+
+                <div class="resume-section">
+                    <h3 class="section-title">Studies</h3>
+                    <div class="edu-item">
+                        <p class="edu-degree">B.Tech</p>
+                        <p class="edu-school">Lovely Professional University</p>
+                    </div>
+                    <div class="edu-item">
+                        <p class="edu-degree">Diploma</p>
+                        <p class="edu-school">Sri Vasavi Institute of Engineering And Technology</p>
+                    </div>
+                </div>
+
+                <div class="resume-section">
+                    <h3 class="section-title">Achievements</h3>
+                    <ul style="padding-left: 20px; opacity: 0.8; font-size: 13px;">
+                        <li style="margin-bottom: 10px;">Conducted Smart India Hackathon as Co-ordinator</li>
+                        <li>Participated in Spark 2.0 Hackathon</li>
+                    </ul>
+                </div>
+
+                <div class="skills">
+                    <span>Java</span>
+                    <span>Python</span>
+                    <span>DevOps</span>
+                    <span>Android</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
